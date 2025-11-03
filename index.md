@@ -11,10 +11,10 @@ feature_row:
   - image_path: /assets/images/profile.jpeg
     title: "About Me"
     excerpt: "Exploring the intersection of technology and ecology to protect our ocean planet"
-    url: "/about"
+    url: "/about/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
-  - image_path: /assets/images/ai-ecosystem.jpg
+  - image_path: /assets/images/ai-ecosystem.png
     title: "AI for Ecosystem Modelling"
     excerpt: "LLM-assisted workflows for mechanistic models."
     url: "/research/#ai"
