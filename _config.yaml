@@ -15,7 +15,7 @@ permalink: /:title/
 author:
   name: "Scott Spillias"
   avatar: "/assets/images/profile_crop.jpeg"
-  bio: "CERC Fellow, CSIRO Environment. I develop collaborative intelligence approaches for climate‑resilient ecosystem models."
+  bio: "I develop and test AI approaches for ecosystem modelling"
   location: "Hobart, TAS"
   email: "scott.spillias@gmail.com"
   links:
