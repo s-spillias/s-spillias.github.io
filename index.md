@@ -12,20 +12,21 @@ feature_row:
   - image_path: /assets/images/profile.jpeg
     title: "About Me"
     excerpt: "Exploring the intersection of technology and ecology to protect our ocean planet"
-    url: "{{ '/about/' | relative_url }}"
+    url: "/about/"
     btn_label: "Learn more"
     btn_class: "btn--primary"
   - image_path: /assets/images/ai-ecosystem.png
     title: "AI for Ecosystem Modelling"
     excerpt: "LLM-assisted workflows for mechanistic models."
-    url: "{{ '/research/#ai' | relative_url }}"
+    url: "/research/#ai"
     btn_label: "Learn more"
     btn_class: "btn--primary"
   - image_path: /assets/images/seaweed.jpg
     title: "Seaweed Farming & Sustainability"
     excerpt: "Global scenarios for ocean farming."
-    url: "{{ '/research/#seaweed' | relative_url }}"
+    url: "/research/#seaweed"
     btn_label: "Learn more"
     btn_class: "btn--primary"
 ---
+
 {% include feature_row %}

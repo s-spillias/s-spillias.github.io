@@ -4,28 +4,26 @@ permalink: /about/
 layout: single
 author_profile: true
 header:
-  overlay_image: "/assets/images/banner.jpg"
+  overlay_image: "/assets/images/banner.jpeg"
   overlay_filter: "0.3"
   caption: "Connecting science, technology, and the sea"
 ---
 
-<!-- Round profile photo centered -->
 <p align="center">
-  <img
-    src="{{ '/assets/images/profile.jpeg' | relative_url }}"
-    alt="Profile photo"
-    class="profile-avatar"
-    width="180"
-    height="180">
+  {{ '/assets/images/profile.jpeg' | relative_url }}
 </p>
 
 <style>
 /* Page-scoped styles for the round avatar */
-.profile-avatar{
- 55,255,0.85);
-  box-shadow:0 6px 16px rgba(0,0,0,0.18);
+.profile-avatar {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  border: 3px solid rgba(255,255,255,0.85);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
-/* Optional: adjust border color for dark mode */
 @media (prefers-color-scheme: dark) {
   .profile-avatar { border-color: rgba(255,255,255,0.35); }
 }
