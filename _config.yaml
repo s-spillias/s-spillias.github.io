@@ -15,7 +15,7 @@ permalink: /:title/
 author:
   name: "Scott Spillias"
   avatar: "/assets/images/profile.jpg"
-  bio: "CERC Fellow, CSIRO Environment. I develop collaborative intelligence approaches for climate-resilient ecosystem models."
+  bio: "CERC Fellow, CSIRO Environment. I develop collaborative intelligence approaches for climate‑resilient ecosystem models."
   location: "Hobart, TAS"
   email: "scott.spillias@gmail.com"
   links:
@@ -41,20 +41,15 @@ footer:
       icon: "fab fa-orcid"
       url: "https://orcid.org/0000-0002-1310-5202"
 
-# Plugins used by GitHub Pages + Minimal Mistakes
+# Plugins supported on GitHub Pages; MM also recommends include-cache
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-  - jekyll-include-cache    # <-- fixes "Unknown tag 'include_cached'"
+  - jekyll-include-cache
 
-# Navigation is in _data/navigation.yml
+# Use pages (no posts yet), and auto-apply the single layout
 collections: []
-
-# Turn off blog pagination warnings (no posts yet)
-paginate: 0
-
-# Defaults so pages in _pages use the "single" layout automatically
 defaults:
   - scope:
       path: ""
