@@ -1,4 +1,3 @@
-# Site settings
 title: "Scott Spillias"
 name: "Scott Spillias"
 description: "Marine scientist & AI researcher — ecosystem modelling, seaweed farming, and decision-support."
@@ -6,15 +5,13 @@ url: "https://s-spillias.github.io"
 repository: "s-spillias/s-spillias.github.io"
 locale: "en"
 
-# Use Minimal Mistakes via GitHub Pages remote theme
+# Use Minimal Mistakes via remote theme (GitHub Pages compatible)
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"  # try: default, air, aqua, contrast, dirt, mint, plum, sunrise
+minimal_mistakes_skin: "dark"   # try: default, air, aqua, contrast, dirt, mint, plum, sunrise
 
-# Build settings (safe defaults for GitHub Pages)
 markdown: kramdown
 permalink: /:title/
 
-# Author profile (shows in sidebar)
 author:
   name: "Scott Spillias"
   avatar: "/assets/images/profile.jpg"
@@ -32,7 +29,6 @@ author:
       icon: "fab fa-github"
       url: "https://github.com/s-spillias"
 
-# Footer links (bottom of pages)
 footer:
   links:
     - label: "GitHub"
@@ -45,14 +41,18 @@ footer:
       icon: "fab fa-orcid"
       url: "https://orcid.org/0000-0002-1310-5202"
 
-# Navigation (points to _data/navigation.yml)
-collections: []
-paginate: 0
-# Enable common GitHub Pages features (optional, supported by GitHub Pages)
+# Plugins used by GitHub Pages + Minimal Mistakes
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-include-cache    # <-- fixes "Unknown tag 'include_cached'"
+
+# Navigation is in _data/navigation.yml
+collections: []
+
+# Turn off blog pagination warnings (no posts yet)
+paginate: 0
 
 # Defaults so pages in _pages use the "single" layout automatically
 defaults:
