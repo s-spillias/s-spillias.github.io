@@ -1,7 +1,47 @@
-# …
-remote_theme: "mmistakes/minimal-mistakes"
+title: "Scott Spillias"
+name: "Scott Spillias"
+description: "Marine scientist & AI researcher — ecosystem modelling, seaweed farming, and decision-support."
+url: "https://s-spillias.github.io"
+repository: "s-spillias/s-spillias.github.io"
+locale: "en"
 
-# Define a 'pages' collection sourced from /_pages
+# Use Minimal Mistakes via remote theme (GitHub Pages compatible)
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "dark"   # try: default, air, aqua, contrast, dirt, mint, plum, sunrise
+
+markdown: kramdown
+permalink: /:title/
+
+author:
+  name: "Scott Spillias"
+  avatar: "/assets/images/profile.jpg"
+  bio: "CERC Fellow, CSIRO Environment. I develop collaborative intelligence approaches for climate‑resilient ecosystem models."
+  location: "Hobart, TAS"
+  email: "scott.spillias@gmail.com"
+  links:
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0002-1310-5202"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/s-spillias"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/s-spillias"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0002-1310-5202"
+
+# Plugins supported on GitHub Pages; MM also recommends include-cache
 collections:
   pages:
     output: true
