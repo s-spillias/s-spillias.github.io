@@ -2,32 +2,39 @@
 title: "About Me"
 permalink: /about/
 layout: single
-author_profile: true
+author_profile: false
 header:
   overlay_image: "/assets/images/banner.jpeg"
   overlay_filter: "0.3"
   caption: "Connecting science, technology, and the sea"
 ---
 
-<p align="center">
+<!-- Single, round avatar above the author card -->
+<div class="round-avatar" style="margin: 0 auto;">
   {{ '/assets/images/profile.jpeg' | relative_url }}
-</p>
+</div>
 
 <style>
-/* Page-scoped styles for the round avatar */
-.profile-avatar {
+/* Robust circular clip regardless of theme styles */
+.round-avatar {
   width: 180px;
   height: 180px;
   border-radius: 50%;
-  object-fit: cover;
-  display: inline-block;
+  overflow: hidden;                 /* ensures perfect circle */
   border: 3px solid rgba(255,255,255,0.85);
   box-shadow: 0 6px 16px rgba(0,0,0,0.18);
 }
+.round-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;                 /* fills the circle nicely */
+  display: block;
+}
 @media (prefers-color-scheme: dark) {
-  .profile-avatar { border-color: rgba(255,255,255,0.35); }
+  .round-avatar { border-color: rgba(255,255,255,0.35); }
 }
 </style>
+
 
 ## About Me
 
