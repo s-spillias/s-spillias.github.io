@@ -5,7 +5,7 @@ layout: single
 author_profile: true
 ---
 
-**Download CV (PDF):** /assets/docs/Scott_Spillias_CV.pdf
+**Download CV (PDF):** /assets/docs/Spillias_CV_11_25.pdf
 
 ### Highlights
 - CERC Postdoctoral Research Fellow, CSIRO Environment (2023–present)
