@@ -37,8 +37,6 @@ author_profile: false
 </style>
 
 
-## About Me
-
 I’ve always been fascinated by technology as a way to navigate the natural world. As a kid, I devoured science fiction and dreamt of exploring the stars aboard faster‑than‑light ships. Later, my attention turned to technologies from a different era—wooden ships propelled by canvas sails—where we still sailed through the stars (but only on a clear night).
 
 Today, that same curiosity drives my work with cutting‑edge AI. I build tools that help scientists and decision‑makers make sense of complex ecological systems—because I believe better models lead to better choices for our ocean planet.
