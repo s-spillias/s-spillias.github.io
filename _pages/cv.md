@@ -5,7 +5,8 @@ layout: single
 author_profile: true
 ---
 
-**Download CV (PDF):** /assets/docs/Spillias_CV_11_25.pdf
+<a href="{{ '/assets/docs/Spillias_CV_11_25.pdf' | relative_url }}" download>Download my resume (PDF)</a>
+
 
 ### Highlights
 - CERC Postdoctoral Research Fellow, CSIRO Environment (2023–present)
@@ -25,8 +26,7 @@ author_profile: true
 - **BSc, Marine Biology**, Duke University (2005–2009)
 
 ### Selected Awards
-- Peccei Award (2021) — IIASA YSSP Outstanding Contribution  
-- IIASA YSSP Participant (~US$8,000) (2021)  
+- Peccei Award (2021) — IIASA YSSP Outstanding Contribution   
 - 3‑Minute Thesis: First Prize & People’s Choice (SEES) and Faculty Runner‑up (2020)  
 - Ian McDougall Bursary (2019)  
 - UQ Graduate School Scholarship (2018)

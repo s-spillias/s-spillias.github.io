@@ -3,10 +3,10 @@ title: "About Me"
 permalink: /about/
 layout: single
 author_profile: false
-header:
-  overlay_image: "/assets/images/banner.jpeg"
-  overlay_filter: "0.3"
-  caption: "Connecting science, technology, and the sea"
+# header:
+#   overlay_image: "/assets/images/banner.jpeg"
+#   overlay_filter: "0.3"
+#   caption: "Connecting science, technology, and the sea"
 ---
 
 <!-- Single, round avatar above the author card -->
