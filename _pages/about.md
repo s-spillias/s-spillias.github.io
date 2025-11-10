@@ -11,8 +11,9 @@ header:
 
 <!-- Single, round avatar above the author card -->
 <div class="round-avatar" style="margin: 0 auto;">
-  {{ '/assets/images/profile.jpeg' | relative_url }}
+  <img src="{{ '/assets/images/profile_crop.jpeg' | relative_url }}" alt="Profile picture">
 </div>
+
 
 <style>
 /* Robust circular clip regardless of theme styles */
