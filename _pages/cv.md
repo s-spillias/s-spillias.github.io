@@ -5,28 +5,41 @@ layout: single
 author_profile: true
 ---
 
-<a href="{{ '/assets/docs/Spillias_CV_11_25.pdf' | relative_url }}" download>Download my resume (PDF)</a>
+[Download CV (PDF)]({{ '/assets/docs/Spillias_CV.pdf' | relative_url }}){: .btn .btn--primary}
 
+## Employment
 
-### Highlights
-- CERC Postdoctoral Research Fellow, CSIRO Environment (2023–present)
-- Marine scientist & AI researcher focused on collaborative intelligence for ecosystem models
-- Stakeholder engagement, teaching, reproducible workflows
+- **Research Scientist**, CSIRO Environment, Hobart (2023–present)
+- **Postdoctoral Fellow**, International Institute for Applied Systems Analysis (IIASA), Austria (2022). Added global fisheries data to the GLOBIOM land-use model.
+- **Consultant**, Australian Seaweed Institute (2020). Co-facilitated an expert elicitation workshop and contributed to the Australian Seaweed Industry Blueprint.
+- **Academic Tutor**, University of Queensland (2019–2022)
+- **Research Assistant**, Maron Ecology & Conservation Policy Lab, University of Queensland (2019)
 
-### Employment
-- **CSIRO — Postdoctoral Research Fellow** (2023–present)  
-- **International Institute for Applied Systems Analysis (IIASA) — Postdoctoral Fellow** (2022)  
-- **Australian Seaweed Institute — Consultant** (2020)  
-- **University of Queensland — Academic Tutor** (2019–2022)  
-- **Maron Ecology & Conservation Policy Lab — Research Assistant** (2019)
+## Service
 
-### Education
-- **PhD, Environmental Management**, University of Queensland (2019–2022)  
-- **Master of Environmental Management**, University of Queensland (2017–2018)  
-- **BSc, Marine Biology**, Duke University (2005–2009)
+- National Councillor, Australian Marine Sciences Association (2025–present)
+- Guest Editor, *PLOS Sustainability and Transformation* (2025–present)
+- Early Career Researcher Representative, Centre for Marine Socioecology, University of Tasmania (2024–present)
 
-### Selected Awards
-- Peccei Award (2021) — IIASA YSSP Outstanding Contribution   
-- 3‑Minute Thesis: First Prize & People’s Choice (SEES) and Faculty Runner‑up (2020)  
-- Ian McDougall Bursary (2019)  
-- UQ Graduate School Scholarship (2018)
+## Education
+
+- **PhD, Environmental Management**, University of Queensland (2019–2022). Thesis: Seaweed farming for sustainable development.
+- **Master of Environmental Management**, University of Queensland (2017–2018). Major in environmental economics; Dean's Commendation for Academic Excellence.
+- **BSc, Marine Biology**, Duke University (2005–2009). Minors in mathematics and environmental science & policy; cum laude, with distinction.
+
+## Awards and grants
+
+- Peccei Award, IIASA Young Scientists Summer Program, for outstanding contribution (2021)
+- IIASA Young Scientists Summer Program participant (2021)
+- 3-Minute Thesis: first prize and people's choice, UQ School of Earth and Environmental Sciences; runner-up, UQ Science Faculty (2020)
+- Ian McDougall Bursary, Future Earth Australia, to fund seaweed farming elicitation workshops (2019)
+- University of Queensland Graduate School Scholarship (2018)
+- Oak Foundation Marine Conservation Service Grant (2009)
+
+## Teaching and supervision
+
+- Tutor for master's courses in systems dynamics modelling and environmental decision-making, University of Queensland (2019–2022)
+- Advised 10 master's and undergraduate research projects at UQ
+- Supervised and mentored students at CSIRO on projects applying AI to science communication and stakeholder engagement
+
+See also [Publications]({{ '/publications/' | relative_url }}) and [Talks & Media]({{ '/talks/' | relative_url }}).

@@ -1,0 +1,158 @@
+# Publications, rendered by _pages/publications.md via _includes/publication.html.
+#
+# To add a paper, copy an entry. Fields:
+#   title, authors, year, venue   required. Markdown works in title and authors;
+#                                 write your own name as **Spillias, S.** to bold it.
+#   details                       volume(issue): pages or article number
+#   doi                           bare DOI, without https://doi.org/
+#   pdf, code                     full URLs
+#   status: preprint              puts the entry under "Preprints" instead of its year
+
+# ---------- Preprints ----------
+
+- title: "Operationalising LLM-assisted screening of literature to support systematic reviews"
+  authors: "**Spillias, S.**, Avila-Turriago, L., Brown, C., Easton, A., Roberts, J., Sievers, M., Swearer, S., Taylor, A., Wright, B. & Komyakova, V."
+  year: 2026
+  venue: "bioRxiv"
+  doi: "10.64898/2026.07.29.741127"
+  code: "https://github.com/s-spillias/screenllm"
+  status: preprint
+
+# ---------- 2026 ----------
+
+- title: "A prospectus on generative artificial intelligence in marine ecosystem modelling"
+  authors: "**Spillias, S.**"
+  year: 2026
+  venue: "Fish and Fisheries"
+  details: "27: 130–144"
+  doi: "10.1111/faf.70037"
+
+- title: "The future of artificial intelligence in ecosystem modeling"
+  authors: "**Spillias, S.**, Trebilco, R., Adams, M.P., Boschetti, F., Constable, A., Dunstan, P., et al."
+  year: 2026
+  venue: "BioScience"
+  details: "76(1): 57–70"
+  doi: "10.1093/biosci/biaf169"
+
+- title: "Data-driven discovery of mechanistic ecosystem models with LLMs"
+  authors: "**Spillias, S.**, Rogers, J., Boschetti, F., Fulton, E.A., Guglielmo, M., Yong, S.Y. & Trebilco, R."
+  year: 2026
+  venue: "Methods in Ecology and Evolution"
+  doi: "10.1111/2041-210x.70244"
+  code: "https://github.com/s-spillias/EMs-with-LLMs"
+
+- title: "AI-driven knowledge synthesis for food web parameterisation"
+  authors: "**Spillias, S.**, Fulton, E.A., Boschetti, F., Bulman, C., Strzelecki, J. & Trebilco, R."
+  year: 2026
+  venue: "Environmental Modelling & Software"
+  details: "197: 106865"
+  doi: "10.1016/j.envsoft.2026.106865"
+  code: "https://github.com/s-spillias/AI-EwE-Diets"
+
+- title: "Benchmarking large language models for marine functional group classification"
+  authors: "**Spillias, S.**"
+  year: 2026
+  venue: "Ecological Informatics"
+  details: "103984"
+  doi: "10.1016/j.ecoinf.2026.103984"
+  code: "https://github.com/s-spillias/EcoGrouping"
+
+- title: "Prompting large language models for quality ecological statistics"
+  authors: "Brown, C.J. & **Spillias, S.**"
+  year: 2026
+  venue: "Methods in Ecology and Evolution"
+  doi: "10.1111/2041-210x.70267"
+
+# ---------- 2025 ----------
+
+- title: "Developing a Southern Ocean marine ecosystem model ensemble to assess climate risks and uncertainties"
+  authors: "Murphy, K., Fierro-Arcos, D., Rohr, T., Green, D., Novaglio, C., … **Spillias, S.**, … Blanchard, J."
+  year: 2025
+  venue: "Earth's Future"
+  details: "13(3): e2024EF004849"
+  doi: "10.1029/2024EF004849"
+  pdf: "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/2024EF004849"
+
+- title: "Seafood sustainability challenges for import-dependent nations"
+  authors: "Dominguez-Martinez, R.M., Klein, C.J., Blanchard, J.L., Farmery, A., Kuempel, C.D., Roberson, L., **Spillias, S.** & Cottrell, R.S."
+  year: 2025
+  venue: "Reviews in Fisheries Science & Aquaculture"
+  doi: "10.1080/23308249.2025.2555853"
+  pdf: "https://www.tandfonline.com/doi/pdf/10.1080/23308249.2025.2555853"
+
+- title: "Evaluating generative AI for qualitative data extraction in community-based fisheries management literature"
+  authors: "**Spillias, S.**, Ollerhead, K.M., Andreotta, M., Annand-Jones, R., Boschetti, F., Duggan, J., Karcher, D.B., Paris, C., Shellock, R.J. & Trebilco, R."
+  year: 2025
+  venue: "Environmental Evidence"
+  details: "14(1): 9"
+  doi: "10.1186/s13750-025-00362-9"
+  pdf: "https://environmentalevidencejournal.biomedcentral.com/counter/pdf/10.1186/s13750-025-00362-9.pdf"
+  code: "https://github.com/s-spillias/AI_Extraction"
+
+# ---------- 2024 ----------
+
+- title: "Human–AI collaboration to identify literature for evidence synthesis"
+  authors: "**Spillias, S.**, Tuohy, P., Andreotta, M., Annand-Jones, R., Boschetti, F., Cvitanovic, C., Duggan, J., Fulton, E.A., Karcher, D.B., Paris, C., Shellock, R. & Trebilco, R."
+  year: 2024
+  venue: "Cell Reports Sustainability"
+  details: "1(7): 100132"
+  doi: "10.1016/j.crsus.2024.100132"
+  code: "https://github.com/s-spillias/GPT-Screening"
+
+- title: "Having our kelp and eating it too: Minimizing trade-offs from seaweed farming"
+  authors: "**Spillias, S.**, Cottrell, R.S., Layton, C., O'Brien, K.R. & McDonald-Madden, E."
+  year: 2024
+  venue: "Journal of Cleaner Production"
+  details: "448: 141150"
+  doi: "10.1016/j.jclepro.2024.141150"
+
+- title: "Marine permaculture: Design principles for productive seascapes"
+  authors: "**Spillias, S.**, von Herzen, B. & Holmgren, D."
+  year: 2024
+  venue: "One Earth"
+  details: "7(3): 431–443"
+  doi: "10.1016/j.oneear.2024.01.012"
+
+# ---------- 2023 ----------
+
+- title: "Reducing global land-use pressures with seaweed farming"
+  authors: "**Spillias, S.**, Valin, H., Batka, M., Sperling, F., Havlík, P., Leclère, D., Cottrell, R.S., O'Brien, K.R. & McDonald-Madden, E."
+  year: 2023
+  venue: "Nature Sustainability"
+  details: "6: 380–390"
+  doi: "10.1038/s41893-022-01043-y"
+  pdf: "https://www.nature.com/articles/s41893-022-01043-y.pdf"
+
+- title: "The empirical evidence for the social–ecological impacts of seaweed farming"
+  authors: "**Spillias, S.**, Kelly, R., Cottrell, R.S., O'Brien, K.R., Im, R.-Y., Kim, J.Y., Lei, C., Leung, R.W.S., Matsuba, M., Albano Reis, J., Sato, Y., Sempert, K. & McDonald-Madden, E."
+  year: 2023
+  venue: "PLOS Sustainability and Transformation"
+  details: "2(2): e0000042"
+  doi: "10.1371/journal.pstr.0000042"
+  pdf: "https://journals.plos.org/sustainabilitytransformation/article/file?id=10.1371/journal.pstr.0000042&type=printable"
+
+- title: "Establishing effective conservation management strategies for a poorly known endangered species: a case study using Australia's Night Parrot (*Pezoporus occidentalis*)"
+  authors: "Leseberg, N.P., Kutt, A., Evans, M.C., Nou, T., **Spillias, S.**, Stone, Z., Walsh, J.C., Murphy, S.A., Bamford, M., Burbidge, A.H., Crossing, K., Davis, R.A., Garnett, S.T., Kavanagh, R.P., Murphy, R., Read, J., Reid, J., van Leeuwen, S., Watson, A.W.T., Watson, J.E.M. & Maron, M."
+  year: 2023
+  venue: "Biodiversity and Conservation"
+  details: "32(8): 2869–2891"
+  doi: "10.1007/s10531-023-02633-8"
+  pdf: "https://link.springer.com/content/pdf/10.1007/s10531-023-02633-8.pdf"
+
+# ---------- 2022 ----------
+
+- title: "Expert perceptions of seaweed farming for sustainable development"
+  authors: "**Spillias, S.**, Cottrell, R.S., Kelly, R., O'Brien, K.R., Adams, J., Bellgrove, A., … & McDonald-Madden, E."
+  year: 2022
+  venue: "Journal of Cleaner Production"
+  details: "368: 133052"
+  doi: "10.1016/j.jclepro.2022.133052"
+
+# ---------- 2020 ----------
+
+- title: "Renewable energy targets may undermine their sustainability"
+  authors: "**Spillias, S.**, Kareiva, P., Ruckelshaus, M. & McDonald-Madden, E."
+  year: 2020
+  venue: "Nature Climate Change"
+  details: "10(11): 974–976"
+  doi: "10.1038/s41558-020-00939-x"

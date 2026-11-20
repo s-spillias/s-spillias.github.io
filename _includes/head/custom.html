@@ -1,17 +1,23 @@
-{% raw %}
 <style>
-  /* Make the teaser image's link fill its container */
-  .archive__item-teaser a.feature__image-link { display: block; }
-  .archive__item-teaser img { border: 0; }
+  /* Publications list */
+  .pub-list { padding-left: 1.1em; }
+  .pub-list li { margin-bottom: 0.9em; }
+  .pub-links a { margin-left: 0.35em; font-size: 0.85em; white-space: nowrap; }
 
-  /* Title link styling */
-  .feature__title-link {
-    text-decoration: none;
-    color: inherit;
+  /* Video with caption (MOSAIC film) */
+  figure.video-figure { display: block; margin: 1em 0 1.5em; }
+  figure.video-figure video { display: block; width: 100%; height: auto; border-radius: 4px; background: #000; }
+  figure.video-figure figcaption { margin-top: 0.5em; font-size: 0.8em; }
+
+  /* Round avatar on the About page */
+  .round-avatar {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto 1.5em;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.18);
   }
-  .feature__title-link:hover {
-    text-decoration: underline;
-  }
+  .round-avatar img { display: block; width: 100%; height: 100%; object-fit: cover; }
 </style>
-{% endraw %}
-``

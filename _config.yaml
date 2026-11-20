@@ -1,23 +1,30 @@
 title: "Scott Spillias"
 name: "Scott Spillias"
-description: "Marine scientist & AI researcher — ecosystem modelling, seaweed farming, and decision-support."
+description: "Research scientist at CSIRO in Hobart. I build and test AI tools for marine ecosystem modelling."
 url: "https://s-spillias.github.io"
 repository: "s-spillias/s-spillias.github.io"
 locale: "en"
 
-# Use Minimal Mistakes via remote theme (GitHub Pages compatible)
+# Minimal Mistakes via remote theme (GitHub Pages compatible)
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "dark"   # try: default, air, aqua, contrast, dirt, mint, plum, sunrise
 
 markdown: kramdown
 permalink: /:title/
 
+# Image used when pages are shared on social media
+og_image: "/assets/images/profile_crop.jpeg"
+
+# The site has no blog posts, so hide the RSS link in the footer
+atom_feed:
+  hide: true
+
 author:
   name: "Scott Spillias"
   avatar: "/assets/images/profile_crop.jpeg"
-  bio: "I develop and test AI approaches for ecosystem modelling"
+  bio: "Research Scientist, CSIRO Environment. I build and test AI tools for marine ecosystem modelling."
   location: "Hobart, TAS"
-  email: "scott.spillias@gmail.com"
+  email: "scott.spillias@csiro.au"
   links:
     - label: "Google Scholar"
       icon: "fas fa-graduation-cap"
@@ -28,6 +35,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/s-spillias"
+    - label: "Vita ex machina (Substack)"
+      icon: "fas fa-pen-nib"
+      url: "https://vitaexmachina.substack.com/"
 
 footer:
   links:
@@ -40,14 +50,14 @@ footer:
     - label: "ORCID"
       icon: "fab fa-orcid"
       url: "https://orcid.org/0000-0002-1310-5202"
+    - label: "Substack"
+      icon: "fas fa-pen-nib"
+      url: "https://vitaexmachina.substack.com/"
 
-# Plugins supported on GitHub Pages; MM also recommends include-cache
 collections:
   pages:
     output: true
     permalink: /:title/
-
-remote_theme: "mmistakes/minimal-mistakes"
 
 defaults:
   - scope:
