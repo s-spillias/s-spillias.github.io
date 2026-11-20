@@ -3,6 +3,8 @@ title: "Talks & Media"
 permalink: /talks/
 layout: page
 toc: true
+seo_title: "Talks, Writing and Media | Scott Spillias"
+description: "Talks, podcasts, writing and media coverage on AI agents and generative AI in ecosystem modelling and environmental science, seaweed farming and ecopoetry."
 ---
 
 ## Writing {#writing}

@@ -2,6 +2,8 @@
 title: "Curriculum Vitae"
 permalink: /cv/
 layout: page
+seo_title: "CV | Scott Spillias"
+description: "CV of Scott Spillias, research scientist at CSIRO: employment, education, awards, service and supervision in AI for marine and environmental science."
 ---
 
 [Download CV (PDF)]({{ '/assets/docs/Spillias_CV.pdf' | relative_url }}){: .btn .btn--primary}

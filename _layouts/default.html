@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="{{ site.locale | default: 'en' }}" data-theme="dark">
+<html lang="{{ site.lang | default: 'en' }}" data-theme="dark">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -20,7 +20,9 @@
       }
     })();
   </script>
-  {% seo %}
+  <title>{% if page.seo_title %}{{ page.seo_title }}{% elsif page.layout == 'home' %}{{ site.title }} | {{ site.tagline }}{% else %}{{ page.title }} | {{ site.title }}{% endif %}</title>
+  {% seo title=false %}
+  {% if page.layout == 'home' or page.url == '/about/' %}{% include person-jsonld.html %}{% endif %}
   <meta name="theme-color" content="#06121c">
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">

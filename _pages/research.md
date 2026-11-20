@@ -3,9 +3,11 @@ title: "Research"
 permalink: /research/
 layout: page
 toc: true
+seo_title: "Research: AI for Ecosystem Modelling | Scott Spillias"
+description: "Research on AI for environmental science: LLM agents that build marine ecosystem models, AI food web parameterisation, and AI-assisted systematic reviews."
 ---
 
-I work on making marine ecosystem models faster to build and easier to check. Most of this work now uses large language models (LLMs): to draft and revise model code, to gather parameters from the literature, and to screen evidence. I test each method against expert judgement before recommending it.
+I work on making marine ecosystem models faster to build and easier to check. Most of this work now uses large language models (LLMs) and AI agents: to draft and revise model code, to gather parameters from the literature, and to screen evidence for systematic reviews. I test each method against expert judgement before recommending it.
 
 ## AI for marine ecosystem modelling {#ai}
 
@@ -28,14 +30,14 @@ MOSAIC (Modular Ocean Simulator with Artificial Intelligence Collaboration) is s
 - mizer, a multispecies size-spectrum model;
 - Atlantis and the native Ecopath with Ecosim engine, both at an experimental stage.
 
-An LLM assistant helps draft model structure and parameters, and helps translate a model from one framework to another where the mapping is not one-to-one. Its output needs checking by the modeller. The assistant can use several LLM providers, including models run locally. MOSAIC runs as a desktop application or as a multi-user server deployment.
+MOSAIC includes an LLM agent that works through the software's own tools. It drafts model structure and parameters, and helps translate a model from one framework to another where the mapping is not one-to-one. It can hand longer tasks to background agents, such as research agents that search the literature for parameter values and reviewer agents that check a model for consistency. Its output needs checking by the modeller. The agents can use several LLM providers, including models run locally. MOSAIC runs as a desktop application or as a multi-user server deployment.
 
 MOSAIC is research software under active development and is not yet publicly available. I presented an early version at [AMSA 2026](https://amsa-2026.p.asnevents.com.au/days/2026-09-01/abstract/140220). If you would like to try it or contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
 {: .callout}
 
 ### Finding model structure from data {#lemma}
 
-LEMMA (LLM-Enabled Mechanistic Modelling for ecosystem Assessment) puts an LLM inside an evolutionary algorithm. The LLM writes, tests and revises mechanistic models that explain time-series data, and Template Model Builder (TMB) estimates their parameters. In a nutrient–phytoplankton–zooplankton test it recovered the known dynamics, and for crown-of-thorns starfish outbreaks on the Great Barrier Reef its models came close to those built by experts.
+LEMMA (LLM-Enabled Mechanistic Modelling for ecosystem Assessment) puts an LLM coding agent inside an evolutionary algorithm. The agent writes, tests and revises mechanistic models that explain time-series data, and Template Model Builder (TMB) estimates their parameters. In a nutrient–phytoplankton–zooplankton test it recovered the known dynamics, and for crown-of-thorns starfish outbreaks on the Great Barrier Reef its models came close to those built by experts.
 
 [Paper (*Methods in Ecology and Evolution*, 2026)](https://doi.org/10.1111/2041-210x.70244) · [Code](https://github.com/s-spillias/EMs-with-LLMs)
 
@@ -51,7 +53,7 @@ I benchmarked open and closed LLMs on sorting marine taxa into functional groups
 
 [Paper (*Ecological Informatics*, 2026)](https://doi.org/10.1016/j.ecoinf.2026.103984) · [Code](https://github.com/s-spillias/EcoGrouping)
 
-## AI for evidence synthesis {#evidence}
+## AI for evidence synthesis and systematic reviews {#evidence}
 
 Systematic reviews in ecology and environmental management can involve screening tens of thousands of abstracts. With colleagues at CSIRO and elsewhere I have tested how LLMs can share that work with human reviewers.
 

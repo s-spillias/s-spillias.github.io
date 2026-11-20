@@ -1,9 +1,24 @@
 title: "Scott Spillias"
 name: "Scott Spillias"
-description: "Research scientist at CSIRO in Hobart. I build and test AI tools for marine ecosystem modelling."
+tagline: "AI for Ecosystem Modelling and Environmental Science"
+description: "Research scientist at CSIRO (Hobart, Australia) building and testing AI agents and large language models for marine ecosystem modelling and environmental science."
 url: "https://s-spillias.github.io"
 repository: "s-spillias/s-spillias.github.io"
-locale: "en"
+locale: "en_AU"   # og:locale for link previews
+lang: "en-AU"     # <html lang>
+
+# Profiles that refer to the same person; used in search-engine structured data
+social:
+  name: "Scott Spillias"
+  links:
+    - "https://scholar.google.com/citations?user=wbnHaIoAAAAJ"
+    - "https://orcid.org/0000-0002-1310-5202"
+    - "https://github.com/s-spillias"
+    - "https://vitaexmachina.substack.com/"
+    - "https://marinesocioecology.org/team/scott-spillias/"
+
+twitter:
+  card: summary_large_image
 
 # No theme: layouts, includes, CSS and JS live in this repository
 # (_layouts/, _includes/, assets/css/site.css, assets/js/).
@@ -40,7 +55,10 @@ defaults:
   - scope:
       path: ""
     values:
-      image: "/assets/images/profile_crop.jpeg"   # used for link previews
+      image:                                    # used for link previews
+        path: "/assets/images/og-card.jpg"
+        width: 1200
+        height: 630
   - scope:
       path: ""
       type: pages       # applies to the 'pages' collection

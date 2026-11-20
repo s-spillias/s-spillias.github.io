@@ -1,0 +1,35 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Scott Spillias",
+  "url": "{{ site.url }}/",
+  "image": "{{ site.url }}{{ site.author.avatar }}",
+  "jobTitle": "Research Scientist",
+  "description": {{ site.description | jsonify }},
+  "worksFor": { "@type": "Organization", "name": "CSIRO Environment", "url": "https://www.csiro.au/" },
+  "affiliation": { "@type": "Organization", "name": "Centre for Marine Socioecology, University of Tasmania", "url": "https://marinesocioecology.org/" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "The University of Queensland" },
+    { "@type": "CollegeOrUniversity", "name": "Duke University" }
+  ],
+  "address": { "@type": "PostalAddress", "addressLocality": "Hobart", "addressRegion": "Tasmania", "addressCountry": "AU" },
+  "email": "mailto:{{ site.author.email }}",
+  "knowsAbout": [
+    "Artificial intelligence",
+    "AI agents",
+    "Large language models",
+    "Generative AI",
+    "AI for environmental science",
+    "Marine ecosystem modelling",
+    "Ecosystem models",
+    "Food webs",
+    "Fisheries science",
+    "Evidence synthesis",
+    "Systematic reviews",
+    "Seaweed farming",
+    "Ecopoetry"
+  ],
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>

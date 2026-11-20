@@ -3,6 +3,8 @@ title: "Software"
 permalink: /software/
 layout: page
 toc: true
+seo_title: "Software: AI Tools for Ecology and Systematic Reviews | Scott Spillias"
+description: "Open-source AI tools for ecology: LLM-assisted literature screening (screenllm), ecosystem model discovery (LEMMA), food web building (SPELL) and MOSAIC."
 ---
 
 Code for most of my papers is on [GitHub](https://github.com/s-spillias). These are the tools most likely to be useful to others.
@@ -11,7 +13,7 @@ Code for most of my papers is on [GitHub](https://github.com/s-spillias). These 
 
 ### MOSAIC (in development) {#mosaic}
 
-Software for building, running and comparing marine ecosystem models in CORSA, Ecopath with Ecosim (through Rpath) and mizer, with experimental support for Atlantis. It includes an LLM assistant for drafting model structure and parameters. It is not yet publicly available; if you would like to try it or contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
+Software for building, running and comparing marine ecosystem models in CORSA, Ecopath with Ecosim (through Rpath) and mizer, with experimental support for Atlantis. It includes LLM agents that draft model structure and parameters, search the literature for parameter values and check models for consistency. It is not yet publicly available; if you would like to try it or contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
 
 [Description and one-minute film]({{ '/research/#mosaic' | relative_url }})
 

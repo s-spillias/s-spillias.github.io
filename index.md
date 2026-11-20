@@ -2,9 +2,9 @@
 layout: home
 title: "Scott Spillias"
 permalink: /
-description: "Research Scientist at CSIRO in Hobart, building and testing AI tools for marine ecosystem modelling."
+description: "Scott Spillias is a CSIRO research scientist in Hobart building AI agents and large language model tools for marine ecosystem modelling and environmental science."
 hero:
-  lead: "Research Scientist at CSIRO in Hobart. I build and test AI tools that help scientists assemble marine ecosystem models, and check what they produce against expert work."
+  lead: "Research Scientist at CSIRO in Hobart. I build and test AI tools, including LLM agents, that help scientists assemble marine ecosystem models, and check what they produce against expert work."
   actions:
     - label: "Research"
       url: "/research/"
@@ -16,12 +16,12 @@ cards:
   - image: /assets/images/card-ai-modelling.jpg
     alt: "Kelp forest fading into circuit lines"
     title: "AI for ecosystem modelling"
-    excerpt: "Methods that use large language models to find model structure, build food webs and group species, tested against expert work."
+    excerpt: "Methods that use large language models and AI agents to find model structure, build food webs and group species, tested against expert work."
     url: "/research/#ai"
   - image: /assets/images/card-mosaic.jpg
     alt: "Still from the MOSAIC film: a fishing boat at sunset above a green sea"
     title: "MOSAIC"
-    excerpt: "Software for building, running and comparing marine ecosystem models across modelling frameworks, with an LLM assistant. In development."
+    excerpt: "Software for building, running and comparing marine ecosystem models across modelling frameworks, with built-in LLM agents. In development."
     url: "/research/#mosaic"
     cta: "Watch the film"
   - image: /assets/images/card-seaweed.jpg
@@ -33,7 +33,7 @@ cards:
 
 <section class="intro">
   <img class="intro__photo" src="{{ '/assets/images/profile_crop.jpeg' | relative_url }}" alt="Scott Spillias" width="132" height="132">
-  <p>I'm a marine scientist at CSIRO Environment and a member of the Centre for Marine Socioecology at the University of Tasmania. Building a marine ecosystem model takes months of specialist work: choosing its structure, grouping species, assembling the food web and finding parameter values in the literature. I build tools that use large language models for these steps and measure how their output compares with expert work.</p>
+  <p>I'm a marine scientist at CSIRO Environment and a member of the Centre for Marine Socioecology at the University of Tasmania. Building a marine ecosystem model takes months of specialist work: choosing its structure, grouping species, assembling the food web and finding parameter values in the literature. I build tools that use large language models and AI agents for these steps and measure how their output compares with expert work. More broadly, I work on how generative AI can be used well in environmental science, from ecosystem modelling to systematic reviews and science communication.</p>
 </section>
 
 ## Recent {#recent}

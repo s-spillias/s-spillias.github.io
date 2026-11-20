@@ -2,6 +2,8 @@
 title: "About Me"
 permalink: /about/
 layout: page
+seo_title: "About Scott Spillias"
+description: "About Scott Spillias, marine scientist and AI researcher at CSIRO in Hobart, Australia, with a short bio for event organisers."
 ---
 
 <div class="round-avatar">
@@ -20,4 +22,4 @@ I also write poetry. With the poet Daniel J Townsend I co-host the [Ecopoetic Wo
 
 For event organisers and introductions:
 
-> Scott Spillias is a Research Scientist at CSIRO Environment in Hobart and a member of the Centre for Marine Socioecology at the University of Tasmania. He develops and tests AI methods for building marine ecosystem models, including tools that use large language models to find model structure, build food webs and screen scientific literature, and he leads development of MOSAIC, software for building and comparing marine ecosystem models across modelling frameworks. He holds a PhD from the University of Queensland on the sustainability of seaweed farming, was a postdoctoral fellow at the International Institute for Applied Systems Analysis (IIASA), and is a National Councillor of the Australian Marine Sciences Association. He also writes poetry and co-hosts the Ecopoetic Workshop Series in Hobart with the poet Daniel J Townsend.
+> Scott Spillias is a Research Scientist at CSIRO Environment in Hobart and a member of the Centre for Marine Socioecology at the University of Tasmania. He develops and tests AI methods for environmental science, including large language models and AI agents that find model structure, build food webs and screen scientific literature, and he leads development of MOSAIC, software for building and comparing marine ecosystem models across modelling frameworks. He holds a PhD from the University of Queensland on the sustainability of seaweed farming, was a postdoctoral fellow at the International Institute for Applied Systems Analysis (IIASA), and is a National Councillor of the Australian Marine Sciences Association. He also writes poetry and co-hosts the Ecopoetic Workshop Series in Hobart with the poet Daniel J Townsend.

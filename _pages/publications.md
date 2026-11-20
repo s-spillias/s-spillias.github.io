@@ -3,6 +3,8 @@ title: "Publications"
 permalink: /publications/
 layout: page
 toc: true
+seo_title: "Publications on AI in Ecology and Marine Science | Scott Spillias"
+description: "Publications by Scott Spillias on generative AI and large language models in ecology, marine ecosystem modelling, evidence synthesis and seaweed farming."
 ---
 
 Also on [Google Scholar](https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0002-1310-5202). Code links go to the repository for each paper; see also [Software]({{ '/software/' | relative_url }}).
