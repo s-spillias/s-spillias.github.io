@@ -1,10 +1,8 @@
 ---
 title: "Research"
 permalink: /research/
-layout: single
-author_profile: true
+layout: page
 toc: true
-toc_sticky: true
 ---
 
 I work on making marine ecosystem models faster to build and easier to check. Most of this work now uses large language models (LLMs): to draft and revise model code, to gather parameters from the literature, and to screen evidence. I test each method against expert judgement before recommending it.
@@ -26,7 +24,7 @@ Ecosystem models let fisheries and conservation managers ask "what if" questions
 MOSAIC (Modular Ocean Simulator with Artificial Intelligence Collaboration) is a desktop application for building marine ecosystem models. You assemble a model from species, food webs, habitat maps and pressures such as fishing and warming, and can run the same ecosystem in four frameworks: CORSA for space and habitat, Ecopath with Ecosim for trophic interactions, mizer for body size, and Atlantis for the whole system. An AI collaborator suggests parameter values from the literature and shows the evidence for each one. The modeller accepts or rejects every suggestion, and each change is logged. I presented it at [AMSA 2026](https://amsa-2026.p.asnevents.com.au/days/2026-09-01/abstract/140220) using CORSA models of Australian shelf ecosystems.
 
 **Coming soon.** MOSAIC is still in development and will be released as open-source software under the MIT licence. If you'd like to try it on your own system, add a modelling framework, or collaborate on it, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
-{: .notice--info}
+{: .callout}
 
 ### Finding model structure from data {#lemma}
 
@@ -59,7 +57,7 @@ Systematic reviews in ecology and environmental management can involve screening
 
 My PhD at the University of Queensland asked whether farming seaweed could reduce pressure on land, and what it would cost elsewhere.
 
-- Using the GLOBIOM land-use model, we estimated how much global land-use pressure could fall if seaweed products replaced some food, feed and fuel. [*Nature Sustainability* (2023)](https://doi.org/10.1038/s41893-022-01043-y)
+- Using the GLOBIOM land-use model, we estimated how much global land-use pressure could fall if seaweed products replaced some food, feed and fuel. If seaweed made up 10% of global diets, about 110 million hectares of land would not need to be converted to farmland. [*Nature Sustainability* (2023)](https://doi.org/10.1038/s41893-022-01043-y), covered by *The Guardian*, ABC News, ABC Radio's *AM*, *Popular Science* and others ([media coverage]({{ '/talks/#media' | relative_url }})).
 - A review of the empirical evidence for the social and ecological impacts of seaweed farming. [*PLOS Sustainability and Transformation* (2023)](https://doi.org/10.1371/journal.pstr.0000042)
 - Workshops with Australian experts on how seaweed farming could affect the Sustainable Development Goals. [*Journal of Cleaner Production* (2022)](https://doi.org/10.1016/j.jclepro.2022.133052)
 - Reducing the trade-offs of seaweed farming. [*Journal of Cleaner Production* (2024)](https://doi.org/10.1016/j.jclepro.2024.141150)

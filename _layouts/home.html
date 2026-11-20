@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="hero" data-hero>
+  <canvas class="hero__canvas" id="seascape" aria-hidden="true"></canvas>
+  <div class="hero__fade" aria-hidden="true"></div>
+  <div class="container hero__inner">
+    <h1 class="hero__title">{{ page.hero.title | default: site.title }}</h1>
+    {% if page.hero.lead %}<p class="hero__lead">{{ page.hero.lead }}</p>{% endif %}
+    <div class="hero__actions">
+      {% for a in page.hero.actions %}
+      <a class="btn {% if forloop.first %}btn--primary{% else %}btn--ghost{% endif %}" href="{{ a.url | relative_url }}">{% if a.icon %}<i class="{{ a.icon }}" aria-hidden="true"></i> {% endif %}{{ a.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+  <a class="hero__scroll" href="#main-content" aria-label="Scroll to content"><span></span></a>
+</section>
+
+<div class="container home" id="main-content">
+  {{ content }}
+</div>
+
+<script src="{{ '/assets/js/tesserae.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>

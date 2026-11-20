@@ -1,10 +1,8 @@
 ---
 title: "Software"
 permalink: /software/
-layout: single
-author_profile: true
+layout: page
 toc: true
-toc_sticky: true
 ---
 
 Code for most of my papers is on [GitHub](https://github.com/s-spillias). These are the tools most likely to be useful to others.

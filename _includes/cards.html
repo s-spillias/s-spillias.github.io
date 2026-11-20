@@ -1,0 +1,12 @@
+<div class="cards">
+  {% for c in include.items %}
+  <a class="card" href="{{ c.url | relative_url }}">
+    <div class="card__media"><img src="{{ c.image | relative_url }}" alt="{{ c.alt }}" loading="lazy" width="900" height="600"></div>
+    <div class="card__body">
+      <h3 class="card__title">{{ c.title }}</h3>
+      <p class="card__text">{{ c.excerpt }}</p>
+      <span class="card__cta">{{ c.cta | default: "Read more" }} <span aria-hidden="true">→</span></span>
+    </div>
+  </a>
+  {% endfor %}
+</div>

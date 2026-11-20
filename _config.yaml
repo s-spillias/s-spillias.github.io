@@ -5,53 +5,30 @@ url: "https://s-spillias.github.io"
 repository: "s-spillias/s-spillias.github.io"
 locale: "en"
 
-# Minimal Mistakes via remote theme (GitHub Pages compatible)
-remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark"   # try: default, air, aqua, contrast, dirt, mint, plum, sunrise
+# No theme: layouts, includes, CSS and JS live in this repository
+# (_layouts/, _includes/, assets/css/site.css, assets/js/).
 
 markdown: kramdown
 permalink: /:title/
-
-# Image used when pages are shared on social media
-og_image: "/assets/images/profile_crop.jpeg"
-
-# The site has no blog posts, so hide the RSS link in the footer
-atom_feed:
-  hide: true
 
 author:
   name: "Scott Spillias"
   avatar: "/assets/images/profile_crop.jpeg"
   bio: "Research Scientist, CSIRO Environment. I build and test AI tools for marine ecosystem modelling."
-  location: "Hobart, TAS"
+  location: "Hobart, Tasmania"
   email: "scott.spillias@csiro.au"
   links:
     - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
+      icon: "fa-solid fa-graduation-cap"
       url: "https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en"
     - label: "ORCID"
-      icon: "fab fa-orcid"
+      icon: "fa-brands fa-orcid"
       url: "https://orcid.org/0000-0002-1310-5202"
     - label: "GitHub"
-      icon: "fab fa-github"
+      icon: "fa-brands fa-github"
       url: "https://github.com/s-spillias"
-    - label: "Vita ex machina (Substack)"
-      icon: "fas fa-pen-nib"
-      url: "https://vitaexmachina.substack.com/"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-github"
-      url: "https://github.com/s-spillias"
-    - label: "Google Scholar"
-      icon: "fas fa-graduation-cap"
-      url: "https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en"
-    - label: "ORCID"
-      icon: "fab fa-orcid"
-      url: "https://orcid.org/0000-0002-1310-5202"
-    - label: "Substack"
-      icon: "fas fa-pen-nib"
+    - label: "Vita ex machina"
+      icon: "fa-solid fa-pen-nib"
       url: "https://vitaexmachina.substack.com/"
 
 collections:
@@ -62,16 +39,18 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: "/assets/images/profile_crop.jpeg"   # used for link previews
+  - scope:
+      path: ""
       type: pages       # applies to the 'pages' collection
     values:
-      layout: single
-      author_profile: true
+      layout: page
 
 # Ensure Jekyll processes pages inside _pages/
 include: ["_pages"]
+exclude: ["README.md", "Gemfile", "Gemfile.lock", "vendor"]
 
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-include-cache

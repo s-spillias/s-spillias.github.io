@@ -1,0 +1,8 @@
+<ol class="timeline">
+  {% for r in site.data.recent limit: include.limit %}
+  <li class="timeline__item">
+    <span class="timeline__when">{{ r.date }}</span>
+    <div class="timeline__what">{{ r.text | markdownify }}</div>
+  </li>
+  {% endfor %}
+</ol>

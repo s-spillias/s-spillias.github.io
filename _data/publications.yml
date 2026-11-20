@@ -7,6 +7,7 @@
 #   doi                           bare DOI, without https://doi.org/
 #   pdf, code                     full URLs
 #   status: preprint              puts the entry under "Preprints" instead of its year
+#   status: other                 puts it under "Reports, theses and data"
 
 # ---------- Preprints ----------
 
@@ -18,13 +19,49 @@
   code: "https://github.com/s-spillias/screenllm"
   status: preprint
 
+- title: "Integrated assessment of food-system and land-based environmental impacts under blue growth scenarios"
+  authors: "**Spillias, S.**, Blanchard, J., Castro-Cadenas, M., Cottrell, R., Deppermann, A., Frank, S., Leclère, D., Tran, N. & Havlík, P."
+  year: 2026
+  venue: "Research Square"
+  doi: "10.21203/rs.3.rs-9131294/v1"
+  code: "https://github.com/s-spillias/globiom-fish"
+  status: preprint
+
+- title: "Perception spillover shapes social licence trajectories in emerging industries"
+  authors: "Condie, S., Condie, C. & **Spillias, S.**"
+  year: 2026
+  venue: "Research Square"
+  doi: "10.21203/rs.3.rs-10576728/v1"
+  status: preprint
+
 # ---------- 2026 ----------
+
+- title: "Pathways towards social license for offshore wind energy: Modelling strategies to reduce conflict and increase acceptability"
+  authors: "Condie, S.A., Condie, C.M., Andreotta, M., McCrea, R., Melbourne-Thomas, J. & **Spillias, S.**"
+  year: 2026
+  venue: "Energy Policy"
+  details: "218: 115523"
+  doi: "10.1016/j.enpol.2026.115523"
+
+- title: "Response to Zarate (2026): Using AI to improve communication between model builders and users"
+  authors: "**Spillias, S.**, Trebilco, R., Adams, M.P., Boschetti, F., Constable, A., Dunstan, P., … & Fulton, E.A."
+  year: 2026
+  venue: "BioScience"
+  details: "biag116"
+  doi: "10.1093/biosci/biag116"
+
+- title: "Tasmanian mariculture: stakeholder perceptions of current, alternative and future practices"
+  authors: "Vanderkelen, L., Fullbrook, L., Kelly, R. & **Spillias, S.**"
+  year: 2026
+  venue: "Environmental Research: Food Systems"
+  details: "3(2): 025010"
+  doi: "10.1088/2976-601x/ae55a4"
 
 - title: "A prospectus on generative artificial intelligence in marine ecosystem modelling"
   authors: "**Spillias, S.**"
   year: 2026
   venue: "Fish and Fisheries"
-  details: "27: 130–144"
+  details: "27(2): 130–144"
   doi: "10.1111/faf.70037"
 
 - title: "The future of artificial intelligence in ecosystem modeling"
@@ -38,6 +75,7 @@
   authors: "**Spillias, S.**, Rogers, J., Boschetti, F., Fulton, E.A., Guglielmo, M., Yong, S.Y. & Trebilco, R."
   year: 2026
   venue: "Methods in Ecology and Evolution"
+  details: "17(4): 1303–1321"
   doi: "10.1111/2041-210x.70244"
   code: "https://github.com/s-spillias/EMs-with-LLMs"
 
@@ -61,6 +99,7 @@
   authors: "Brown, C.J. & **Spillias, S.**"
   year: 2026
   venue: "Methods in Ecology and Evolution"
+  details: "17(4): 1012–1021"
   doi: "10.1111/2041-210x.70267"
 
 # ---------- 2025 ----------
@@ -75,8 +114,9 @@
 
 - title: "Seafood sustainability challenges for import-dependent nations"
   authors: "Dominguez-Martinez, R.M., Klein, C.J., Blanchard, J.L., Farmery, A., Kuempel, C.D., Roberson, L., **Spillias, S.** & Cottrell, R.S."
-  year: 2025
+  year: 2026
   venue: "Reviews in Fisheries Science & Aquaculture"
+  details: "34(3): 357–372"
   doi: "10.1080/23308249.2025.2555853"
   pdf: "https://www.tandfonline.com/doi/pdf/10.1080/23308249.2025.2555853"
 
@@ -156,3 +196,56 @@
   venue: "Nature Climate Change"
   details: "10(11): 974–976"
   doi: "10.1038/s41558-020-00939-x"
+
+# ---------- Reports, theses and data ----------
+
+- title: "GLOBIOM output data for the aquaculture and aquafeed supply chains in CLEVER D7.3 deliverable"
+  authors: "Leclère, D., **Spillias, S.**, Rouet Pollakis, S. & Sesha Prasad, S."
+  year: 2026
+  venue: "Zenodo (dataset)"
+  doi: "10.5281/zenodo.18233582"
+  status: other
+
+- title: "GLOBIOM output data for the aquaculture and aquafeed supply chains in CLEVER D7.2 deliverable"
+  authors: "Leclère, D., **Spillias, S.**, Rouet Pollakis, S. & Sesha Prasad, S."
+  year: 2025
+  venue: "Zenodo (dataset)"
+  doi: "10.5281/zenodo.15875624"
+  status: other
+
+- title: "National Marine Science Strategy white paper on modelling and quantitative science"
+  authors: "Brown, C., Bruce, L., Jones, E., Baird, M., Bode, M., Buchanan, P., Derkani, M., … **Spillias, S.** …"
+  year: 2025
+  venue: "National Marine Science Committee"
+  status: other
+
+- title: "Low conflict pathways to renewable energy: Stakeholder attitudes to the proposed Bass Strait offshore wind energy zone"
+  authors: "Condie, C., Melbourne-Thomas, J., **Spillias, S.**, Andreotta, M. & Condie, S."
+  year: 2024
+  venue: "CSIRO Data Collection"
+  status: other
+
+- title: "Seaweed farming for sustainable development"
+  authors: "**Spillias, S.**"
+  year: 2023
+  venue: "PhD thesis, The University of Queensland"
+  doi: "10.14264/2d163b7"
+  status: other
+
+- title: "Guidance for estimating the benefits and costs of biodiversity offsets using expert elicitation"
+  authors: "Maron, M., Evans, M.C., Nou, T., Stone, Z.L., **Spillias, S.**, Mayfield, H.J. & Walsh, J."
+  year: 2021
+  venue: "NESP Threatened Species Recovery Hub, Brisbane"
+  status: other
+
+- title: "Better offsets for the night parrot"
+  authors: "Maron, M., Evans, M., Walsh, J., Leseberg, N., Burbidge, A., Murphy, S., … **Spillias, S.** …"
+  year: 2021
+  venue: "NESP Threatened Species Recovery Hub"
+  status: other
+
+- title: "Better offsets for the northern quoll"
+  authors: "Maron, M., Evans, M., Walsh, J., Stone, Z., Dunlop, J., Ross, B., Woinarski, J., … **Spillias, S.** …"
+  year: 2021
+  venue: "NESP Threatened Species Recovery Hub"
+  status: other

@@ -1,15 +1,15 @@
 ---
 title: "Curriculum Vitae"
 permalink: /cv/
-layout: single
-author_profile: true
+layout: page
 ---
 
 [Download CV (PDF)]({{ '/assets/docs/Spillias_CV.pdf' | relative_url }}){: .btn .btn--primary}
 
 ## Employment
 
-- **Research Scientist**, CSIRO Environment, Hobart (2023–present)
+- **Research Scientist**, CSIRO Environment, Hobart (2025–present)
+- **CERC Postdoctoral Research Fellow**, CSIRO Environment, Hobart (2023–2025). Developed AI frameworks for building marine ecosystem models.
 - **Postdoctoral Fellow**, International Institute for Applied Systems Analysis (IIASA), Austria (2022). Added global fisheries data to the GLOBIOM land-use model.
 - **Consultant**, Australian Seaweed Institute (2020). Co-facilitated an expert elicitation workshop and contributed to the Australian Seaweed Industry Blueprint.
 - **Academic Tutor**, University of Queensland (2019–2022)
@@ -38,6 +38,7 @@ author_profile: true
 
 ## Teaching and supervision
 
+- Supervising a student at the Institute for Marine and Antarctic Studies (IMAS), University of Tasmania, on AI for ocean literacy (current)
 - Tutor for master's courses in systems dynamics modelling and environmental decision-making, University of Queensland (2019–2022)
 - Advised 10 master's and undergraduate research projects at UQ
 - Supervised and mentored students at CSIRO on projects applying AI to science communication and stakeholder engagement

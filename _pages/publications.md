@@ -1,10 +1,8 @@
 ---
 title: "Publications"
 permalink: /publications/
-layout: single
-author_profile: true
+layout: page
 toc: true
-toc_sticky: true
 ---
 
 Also on [Google Scholar](https://scholar.google.com/citations?user=wbnHaIoAAAAJ&hl=en) and [ORCID](https://orcid.org/0000-0002-1310-5202). Code links go to the repository for each paper; see also [Software]({{ '/software/' | relative_url }}).
@@ -18,7 +16,7 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=wbnHaIoAAAAJ&
 </ul>
 {% endif %}
 
-{% assign by_year = site.data.publications | where_exp: "p", "p.status != 'preprint'" | group_by: "year" | sort: "name" | reverse %}
+{% assign by_year = site.data.publications | where_exp: "p", "p.status != 'preprint'" | where_exp: "p", "p.status != 'other'" | group_by: "year" | sort: "name" | reverse %}
 {% for group in by_year %}
 ## {{ group.name }} {#y{{ group.name }}}
 
@@ -26,3 +24,12 @@ Also on [Google Scholar](https://scholar.google.com/citations?user=wbnHaIoAAAAJ&
 {%- for p in group.items %}{% include publication.html pub=p %}{% endfor -%}
 </ul>
 {% endfor %}
+
+{% assign other = site.data.publications | where: "status", "other" %}
+{% if other.size > 0 %}
+## Reports, theses and data {#other}
+
+<ul class="pub-list">
+{%- for p in other %}{% include publication.html pub=p %}{% endfor -%}
+</ul>
+{% endif %}
