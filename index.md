@@ -21,7 +21,7 @@ cards:
   - image: /assets/images/card-mosaic.jpg
     alt: "Still from the MOSAIC film: a fishing boat at sunset above a green sea"
     title: "MOSAIC"
-    excerpt: "A desktop platform for building marine ecosystem models with an AI collaborator. Coming soon."
+    excerpt: "Software for building, running and comparing marine ecosystem models across modelling frameworks, with an LLM assistant. In development."
     url: "/research/#mosaic"
     cta: "Watch the film"
   - image: /assets/images/card-seaweed.jpg

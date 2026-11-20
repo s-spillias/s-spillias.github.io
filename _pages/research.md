@@ -21,9 +21,16 @@ Ecosystem models let fisheries and conservation managers ask "what if" questions
   <figcaption>MOSAIC in one minute (turn the sound on). The narration voice and music were generated with AI. I wrote about making the film on <a href="https://vitaexmachina.substack.com/p/were-making-explainer-videos-with">Vita ex machina</a>.</figcaption>
 </figure>
 
-MOSAIC (Modular Ocean Simulator with Artificial Intelligence Collaboration) is a desktop application for building marine ecosystem models. You assemble a model from species, food webs, habitat maps and pressures such as fishing and warming, and can run the same ecosystem in four frameworks: CORSA for space and habitat, Ecopath with Ecosim for trophic interactions, mizer for body size, and Atlantis for the whole system. An AI collaborator suggests parameter values from the literature and shows the evidence for each one. The modeller accepts or rejects every suggestion, and each change is logged. I presented it at [AMSA 2026](https://amsa-2026.p.asnevents.com.au/days/2026-09-01/abstract/140220) using CORSA models of Australian shelf ecosystems.
+MOSAIC (Modular Ocean Simulator with Artificial Intelligence Collaboration) is software for building, running and comparing marine ecosystem models in more than one modelling framework from a single interface. It currently supports:
 
-**Coming soon.** MOSAIC is still in development and will be released as open-source software under the MIT licence. If you'd like to try it on your own system, add a modelling framework, or collaborate on it, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
+- CORSA, a spatially explicit, raster-based ecosystem model;
+- Ecopath with Ecosim, through the Rpath R package, including Ecospace;
+- mizer, a multispecies size-spectrum model;
+- Atlantis and the native Ecopath with Ecosim engine, both at an experimental stage.
+
+An LLM assistant helps draft model structure and parameters, and helps translate a model from one framework to another where the mapping is not one-to-one. Its output needs checking by the modeller. The assistant can use several LLM providers, including models run locally. MOSAIC runs as a desktop application or as a multi-user server deployment.
+
+MOSAIC is research software under active development and is not yet publicly available. I presented an early version at [AMSA 2026](https://amsa-2026.p.asnevents.com.au/days/2026-09-01/abstract/140220). If you would like to try it or contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
 {: .callout}
 
 ### Finding model structure from data {#lemma}

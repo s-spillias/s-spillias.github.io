@@ -9,11 +9,11 @@ Code for most of my papers is on [GitHub](https://github.com/s-spillias). These 
 
 ## Ecosystem modelling {#modelling}
 
-### MOSAIC (coming soon) {#mosaic}
+### MOSAIC (in development) {#mosaic}
 
-A desktop platform for building marine ecosystem models with an AI collaborator. It runs the same ecosystem in CORSA, Ecopath with Ecosim, mizer and Atlantis. It isn't public yet. If you'd like early access or want to contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
+Software for building, running and comparing marine ecosystem models in CORSA, Ecopath with Ecosim (through Rpath) and mizer, with experimental support for Atlantis. It includes an LLM assistant for drafting model structure and parameters. It is not yet publicly available; if you would like to try it or contribute, [email me](mailto:{{ site.author.email }}?subject=MOSAIC).
 
-[Watch the one-minute film]({{ '/research/#mosaic' | relative_url }})
+[Description and one-minute film]({{ '/research/#mosaic' | relative_url }})
 
 ### LEMMA {#lemma}
 
